@@ -21,7 +21,7 @@ body{
 .container {
   max-width: 1330px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding:0 15px;
 }
 
 //! ---------------------------------------- header ----------------------------------------
@@ -39,7 +39,7 @@ body{
 
 }
 
-.header__title {
+.header__title-link {
   color:$col;
   font-size: 30px;
   font-style: normal;
@@ -527,13 +527,10 @@ body{
 .footer__blue-block__text {
   margin-bottom: 40px;
 }
-.footer__blue-block__text__title {
+.footer__blue-block__text__title-link{
   color: #FFF;
-font-family: Jost;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 160%; /* 48px */
+  font-size: 30px;
+  font-weight: 700;
 }
 .footer__blue-block__text__subtitle {
   color: rgba(255, 255, 255, 0.70);
